@@ -3,7 +3,7 @@
 // 05/01/2022
 // Professor Jeremy Wright
 // Milestone 2
-// Test 1
+// Test 2
 
 // Tic-Tac-Toe is intended for one player, where they will vs the computer.
 
@@ -32,6 +32,44 @@ char checkWinner();
 // Here are the main functions, which is where the main body code will go
 int main()
 {
+	char winner = ' ';
+	char response;
+
+	do
+	{
+		winner = ' ';
+		response = ' ';
+		resetBoard();
+
+		while (winner = ' ' && checkFreeSpaces() != 0)
+		{
+			printBoard();
+
+			playerMove();
+			winner = checkWinner();
+			if (winner != ' ' || checkFreeSpaces() == 0)
+			{
+				break;
+			}
+
+			computerMove();
+			winner = checkWinner();
+			if (winner != ' ' || checkFreeSpaces() == 0)
+			{
+				break;
+			}
+		}
+
+		printBoard();
+		printWinner(winner);
+
+		printf("\nPlay again? (Y/N): ");
+		scanf("%c");
+		scanf("%c", &response);
+		response = toupper(response);
+	} while (response == 'Y');
+
+	printf("Thank you for playing :)");
 
 	return 0;
 }
@@ -43,7 +81,7 @@ void playerMove()
 }
 void computerMove()
 {
-	
+
 }
 void resetBoard()
 {
