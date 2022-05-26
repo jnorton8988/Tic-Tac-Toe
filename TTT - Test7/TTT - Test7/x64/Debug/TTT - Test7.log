@@ -1,0 +1,11 @@
+﻿  Test.c
+C:\Users\jnort\OneDrive\Desktop\ITT-310\Week 8\Milestone 5 - Final Application Release\TTT - Test7\TTT - Test7\Test.c(67,11): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\jnort\OneDrive\Desktop\ITT-310\Week 8\Milestone 5 - Final Application Release\TTT - Test7\TTT - Test7\Test.c(67,11): message : placeholders and their parameters expect 2 variadic arguments, but 0 were provided
+C:\Users\jnort\OneDrive\Desktop\ITT-310\Week 8\Milestone 5 - Final Application Release\TTT - Test7\TTT - Test7\Test.c(67,11): message : the missing variadic argument 1 is required by format string '%c'
+C:\Users\jnort\OneDrive\Desktop\ITT-310\Week 8\Milestone 5 - Final Application Release\TTT - Test7\TTT - Test7\Test.c(67,11): message : this argument is used by a conversion specifier
+C:\Users\jnort\OneDrive\Desktop\ITT-310\Week 8\Milestone 5 - Final Application Release\TTT - Test7\TTT - Test7\Test.c(68,11): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\jnort\OneDrive\Desktop\ITT-310\Week 8\Milestone 5 - Final Application Release\TTT - Test7\TTT - Test7\Test.c(68,11): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\jnort\OneDrive\Desktop\ITT-310\Week 8\Milestone 5 - Final Application Release\TTT - Test7\TTT - Test7\Test.c(68,11): message : the missing variadic argument 2 is required by format string '%c'
+C:\Users\jnort\OneDrive\Desktop\ITT-310\Week 8\Milestone 5 - Final Application Release\TTT - Test7\TTT - Test7\Test.c(68,11): message : this argument is used as a buffer size
+C:\Users\jnort\OneDrive\Desktop\ITT-310\Week 8\Milestone 5 - Final Application Release\TTT - Test7\TTT - Test7\Test.c(107,12): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  TTT - Test7.vcxproj -> C:\Users\jnort\OneDrive\Desktop\ITT-310\Week 8\Milestone 5 - Final Application Release\TTT - Test7\x64\Debug\TTT - Test7.exe
